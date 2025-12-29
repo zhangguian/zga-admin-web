@@ -12,6 +12,10 @@ export default defineConfig({
     }),
     tailwindcss(),
   ],
+  optimizeDeps: {
+    include: ["react", "react-dom", "react-router", "antd", "axios", "dayjs"],
+    exclude: ["@iconify/react"],
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),

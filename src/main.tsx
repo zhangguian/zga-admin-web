@@ -4,6 +4,10 @@ import { createBrowserRouter, Outlet, RouterProvider} from "react-router";
 import ErrorBoundary from "./routes/error-pages/ErrorBoundary.tsx";
 import {routersSection} from "./routes/sections";
 import ReactDOM from "react-dom/client";
+import registerLocalIcons from "@/utils/ui/register-icons.ts";
+
+await registerLocalIcons()
+
 const router = createBrowserRouter([
   {
     Component:() => (

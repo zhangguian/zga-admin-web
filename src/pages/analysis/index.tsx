@@ -1,6 +1,6 @@
 import { Link } from 'react-router';
 
-export function Analysis() {
+export default function Analysis() {
   return (
     <>
       <div className="h-full">
