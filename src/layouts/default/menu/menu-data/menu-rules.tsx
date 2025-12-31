@@ -7,7 +7,7 @@ export const  menuRuleData:MenuProps['data'] = [
     items: [
       {
         title: '工作台',
-        path: '/workbench',
+        path: '/',
         icon: <Icon icon="local:ic-workbench" size="24" />
       },
       {
